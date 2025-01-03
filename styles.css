@@ -1,0 +1,67 @@
+body {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: flex-start; 
+    height: 100vh; 
+    margin: 0;
+}
+
+h1 {
+    margin-top: 20px; 
+    text-align: center;
+    text-decoration: underline;
+    font-family: cursive;
+    font-size: 55px;
+}
+
+#result {
+    text-align: center;
+    font-size: 30px;
+    font-family: cursive;
+    font-weight: bolder;
+    margin-top: -30px;
+    color: antiquewhite;
+}
+
+#box {
+    display: flex;
+    justify-content: center; 
+    margin-top: 20px; 
+}
+
+table {
+    margin: 0 auto; 
+}
+
+.tic-tac-toe {
+    height: 100px;
+    width: 100px;
+    border-width: thick;
+    border-color: #7d7d79;
+    cursor: pointer;
+    font-size: xxx-large;
+    color: white;
+}
+
+#edit, #replay {
+    margin-top: 20px; /* Space between the buttons and game grid */
+}
+
+.button {
+    text-align: center;
+    height: 50px;
+    width: 152px;
+    font-size: large;
+    border-radius: 15px;
+    background-color: #ff7b07;
+    color: white;
+    border-width: 2px;
+    border-color: #717171;
+    margin-top: 10px;
+    cursor: pointer;
+}
